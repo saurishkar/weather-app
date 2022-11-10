@@ -10,4 +10,5 @@ Find the 7-day forecast of a city anywhere in the world. Based on React.
 
 React 18
 
-
+## Deployment
+[Deployed on Vercel](https://weather-app-sage-theta.vercel.app)
