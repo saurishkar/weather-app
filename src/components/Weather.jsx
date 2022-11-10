@@ -65,6 +65,7 @@ const Weather = () => {
       const { lat, lon } = cityDetails[0];
       const data = await getWeatherDataFromCoord({ lat, long: lon });
       setWeatherData(data);
+      setCity(data.city.name);
       setLoading(false);
     } catch (err) {
       setLoading(false);
